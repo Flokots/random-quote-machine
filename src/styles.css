@@ -40,6 +40,7 @@ body {
 .quote-icon {
   font-size: 1em;
   margin-right: 0.4em;
+  cursor: pointer;
 }
 .quote-author {
   width: 450px;
@@ -70,6 +71,7 @@ button {
 }
 .icon {
   font-size: 2em;
+  cursor: pointer;
 }
 .submitter {
   width: 450px;
