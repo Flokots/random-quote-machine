@@ -3,21 +3,21 @@
     <div class="quote-box">
       <div class="quote-text">
         <i class="fa fa-quote-left quote-icon"></i>
-        <span id="quote-text">{{quote.quote}}</span>
+        <span id="quote-text">{{currentQuote}} </span>
       </div>
       <div class="quote-author">
-        -<span id="author">{{quote.author}}</span>
+        -<span id="author">{{currentAuthor}}</span>
       </div>
       <div class="row buttons">
         <div class="col-sm-6">
           <div class="row">
             <div class="col-sm-3 thumbs">
               <i class="fa fa-thumbs-o-up icon"></i>
-              <p>{{quote.upVotes}}</p>
+              <p></p>
             </div>
             <div class="col-sm-3 thumbs">
               <i class="fa fa-thumbs-o-down icon"></i>
-              <p>{{quote.downVotes}}</p>
+              <p></p>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@
       </div>
     </div>
     <div class="submitter">
-      <p>Submitted by <strong>{{quote.author}}</strong></p>
+      <p>Submitted by <strong>{{currentAuthor}}</strong></p>
     </div>
   </div>
 </div>
