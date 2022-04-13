@@ -53,6 +53,7 @@ body {
 .buttons {
   width: 450px;
   margin: auto;
+  padding: 2em;
 }
 button {
   border: none;
@@ -62,6 +63,12 @@ button {
   outline: none;
   font-size: 1em;
   opacity: 1;
+  padding: 0.5em;
+  width: 7em;
+  align-items: baseline;
+  }
+  .btn-div {
+    padding-right: 1em;
   }
 .thumbs {
   float: left;
@@ -72,6 +79,7 @@ button {
 .icon {
   font-size: 2em;
   cursor: pointer;
+  align-items: baseline;
 }
 .submitter {
   width: 450px;
@@ -81,3 +89,10 @@ button {
   color: white;
   font-size: 0.8rem;
 } 
+.twitter {
+  margin-left: 1em;
+  padding-right: 3px;
+}
+.tumblr {
+  margin: 3px;
+}
