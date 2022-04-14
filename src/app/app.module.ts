@@ -9,14 +9,13 @@ import { QuotesDisplayComponent } from './components/quotes-display/quotes-displ
 import { AboutComponent } from './components/about/about.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
-
 @NgModule({
   declarations: [
     AppComponent,
     QuotesDisplayComponent,
     AboutComponent,
     NavbarComponent,
-    NotFoundComponent
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,

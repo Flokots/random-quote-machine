@@ -1,16 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
 * {
   margin: 0;
   padding: 0;
   vertical-align: baseline;
   list-style: none;
 }
+
 div {
   position: relative;
   z-index: 2;
 }
+
 body {
   background-color: #333;
   color: #333;
@@ -21,6 +24,7 @@ body {
   align-items: center;
   height: 100vh;
 }
+
 .quote-box {
   border-radius: 3px;
   position: relative;
@@ -29,7 +33,8 @@ body {
   display: table;
   background-color: #fff;
 }
-.quote-text{
+
+.quote-text {
   text-align: center;
   width: 450px;
   height: auto;
@@ -37,11 +42,13 @@ body {
   font-weight: 500;
   font-size: 1.75rem;
 }
+
 .quote-icon {
   font-size: 1em;
   margin-right: 0.4em;
   cursor: pointer;
 }
+
 .quote-author {
   width: 450px;
   height: auto;
@@ -50,7 +57,62 @@ body {
   font-size: 1em;
   text-align: right;
 }
+
 .buttons {
+  width: 450px;
+  margin: auto;
+  display: block;
+}
+
+.button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+#tweet-quote,
+#tumblr-quote {
+  float: left;
+  padding-bottom: 0.5em;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+}
+
+#new-quote {
+  float: right;
+}
+.submitter {
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  color: white;
+  font-size: 0.8rem;
+} 
+.twitter {
+  padding: 3px;
+  padding-bottom: 4px;
+}
+
+
+
+/* .buttons {
   width: 450px;
   margin: auto;
   padding: 2em;
@@ -76,23 +138,12 @@ button {
   font-size: 1.2em;
   margin-right: 5px;
 }
-.icon {
-  font-size: 2em;
-  cursor: pointer;
-  align-items: baseline;
-}
-.submitter {
-  width: 450px;
-  text-align: center;
-  display: block;
-  margin: 15px auto 30px auto;
-  color: white;
-  font-size: 0.8rem;
-} 
+
+
 .twitter {
   margin-left: 1em;
   padding-right: 3px;
 }
 .tumblr {
   margin: 3px;
-}
+} */
