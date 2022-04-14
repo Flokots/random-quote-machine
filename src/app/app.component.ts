@@ -1,5 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
-import { NgProgressComponent } from 'ngx-progressbar';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
