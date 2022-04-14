@@ -7,7 +7,8 @@ import { QuotesDisplayComponent } from './components/quotes-display/quotes-displ
 const routes: Routes = [
   { path: 'quotes', component: QuotesDisplayComponent },
   { path: 'about', component: AboutComponent },
-  { path: '**', component: NotFoundComponent},
+  { path: '', redirectTo:'quotes', pathMatch:"full"},
+  { path: '**', component: NotFoundComponent },
 ];
 
 @NgModule({
