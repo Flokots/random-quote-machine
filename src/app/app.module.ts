@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuotesDisplayComponent } from './components/quotes-display/quotes-display.component';
 import { AboutComponent } from './components/about/about.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuotesDisplayComponent,
-    AboutComponent
+    AboutComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
