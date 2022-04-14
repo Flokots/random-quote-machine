@@ -1,16 +1,16 @@
 .navbar {
   overflow: hidden;
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100vw; /* Full width */
+  background-color: teal;
+  position: fixed; 
+  top: 0; 
+  width: 100vw; 
   left: 0;
   right: 0;
 }
 .navbar a {
   float: right;
   display: block;
-  color: #f2f2f2;
+  color:aqua;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
